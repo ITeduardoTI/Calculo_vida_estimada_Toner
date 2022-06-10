@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Toners</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <form>
+            <label for="totalPag">
+                <p>Total de páginas</p>
+            </label>
+            <input type="text" id="totalPag">
+
+            <label for="dayPag">
+                <p>Páginas impressas por dia</p>
+            </label>
+            <input type="text" id="dayPag">
+
+            <label for="pagePercent">
+                <p>Porcentagem da folha</p>
+            </label>
+            <input type="text" id="pagePercent">
+
+            <button id='calcButton'>Calcular</button>
+        </form>
+
+        <article class="resultado">
+            <p>Resultado</p>
+            <p class="resultadoInt"></p>
+        </article>
+
+
+    </section>
+    <script src="./assets/js/calculo.js"></script>
+</body>
+
+</html>
