@@ -10,16 +10,16 @@ let mes;
 let contaDias;
 
 // Quantidade de páginas impressas por dia
-quantidadeDeDias = paginasTotal / 71;
+quantidadeDeDias = paginasTotal / paginasPorDia;
 
 meses = quantidadeDeDias / 30;
 
-resultado = meses * 5/porcentagem
+resultado = meses * (5/porcentagem)
 
 stringResultado = String(resultado);
 
 [mes, dia] = stringResultado.split('.');
 
-contaDias = Number('0.' + dia) * 30;
+contaDias = (Number('0.' + dia)) * 30;
 
 console.log(`O toner durará ${mes} Meses e ${contaDias.toFixed(3)} Dias`);
