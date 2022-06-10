@@ -14,7 +14,7 @@ quantidadeDeDias = paginasTotal / paginasPorDia;
 
 meses = quantidadeDeDias / 30;
 
-resultado = meses * (5/porcentagem)
+resultado = meses * 5/porcentagem
 
 stringResultado = String(resultado.toFixed(2));
 
